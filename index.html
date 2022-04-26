@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <main>
+        <section class="section-header">
+            <h1 class="section-header-title">Metric/Imperial unit conversion</h1>
+            <input type="number" value="0" id="input-number" class="section-header-input">
+            <button id="convert-btn" class="section-header-btn">Convert</button>
+        </section>
+        <section class="section-units">
+            <div class="unit">    
+                <h2 class="unit-title">Length (Meter/Feet)</h2>
+                <p class="unit-conversion"><span class="number">-</span> meters = <span id="meters-to-feet">-</span> feet | <span class="number">-</span> feet = <span id="feet-to-meters">-</span> meters</p>
+            </div>
+            <div class="unit">    
+                <h2 class="unit-title">Volume (Liters/Gallons)</h2>
+                <p class="unit-conversion"><span class="number">-</span> liters = <span id="liters-to-gallons">-</span> gallons | <span class="number">-</span> gallons = <span id="gallons-to-liters">-</span> liters</p>
+            </div>
+            <div class="unit">    
+                <h2 class="unit-title">Mass (Kilograms/Pounds)</h2>
+                <p class="unit-conversion"><span class="number">-</span> kilos = <span id="kilos-to-pounds">-</span> pounds | <span class="number">-</span> pounds = <span id="pounds-to-kilos">-</span> kilos</p>
+            </div>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
